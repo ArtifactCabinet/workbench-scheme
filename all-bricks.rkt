@@ -24,3 +24,19 @@
   (iter lst 0)
 )
 
+
+;; [Matrix transpose]
+
+(define (transpose m)
+  (apply map list m))
+
+(transpose '((1 2 3) (4 5 6)))
+
+; Steps:
+;;   (apply map list '((a b) (d e))
+;; = (map List '(a b) '(d e))
+;; = (list (List 'a 'd) (List 'b e))
+;; = '((a d) (b e))
+
+; note that map will combine values form each lists at same positions
+(map (lambda (x y) (+ x y)) '(1 2 3) '(4 5 6))
