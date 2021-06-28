@@ -1,13 +1,3 @@
-# Current Available scheme implementsions
-
-`.scm` 
-+ [Chez scheme](https://www.scheme.com/) 
-+ GNU Guile 
-+ [CheckScheme](https://www.call-cc.org/)
-
-`.rtk`
-+ Racket
-
 # Books
 
 + [r6sr](http://www.r6rs.org/) The Revised6 Report on the Algorithmic Language Scheme
@@ -19,3 +9,22 @@
 # Emacs
 
 Dont't use `scheme` layer of spacemacs or `geiser`, they are kind of overhead. Vallina scheme mode + paredit = nice.
+
+# "Major" scheme implementations
+
+`.scm` 
++ r5rs -> mini language, easy to implement -> r7rs-small
++ r6rs -> large language, more useful practically -> r7rs-large
+
++ chez -> r6rs only
++ chicken -> r5rs and use SRFI as extension, plus new r7rs and has built-in package manager to pull eggs
++ guile -> mixture of everything -> GNU-os-api, r5rs, r6rs, r7rs, SRFI plus some inspiration from lisp
+
+Scheme community is bazaar.
+
+`.rtk`
++ Racket
+
+# Links
+
+SRFI -> <https://srfi.schemers.org/>
