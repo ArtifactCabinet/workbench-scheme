@@ -25,6 +25,14 @@ Scheme community is bazaar.
 `.rtk`
 + Racket
 
+# Interesting New Scheme
+
+Why not embrace chaotic bizarre?
+
++ Gerbil <https://github.com/vyzo/gerbil>
++ Chibi -> minimum C
++ Gambit
+
 # Links
 
 SRFI -> <https://srfi.schemers.org/>
